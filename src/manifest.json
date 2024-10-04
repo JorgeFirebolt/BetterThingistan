@@ -1,15 +1,15 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "BetterML",
+  "name": "BetterThingistan",
   "version": "1.0.8",
   "manifest_version": 3,
-  "description": "Making Manyland Better.",
-  "homepage_url": "https://github.com/ZoltarML/",
+  "description": "Making Thingistan Better in honor of the classic Manyland scripting.",
+  "homepage_url": "https://github.com/JorgeFirebolt/",
   "content_scripts": [
     {
       "matches": [
-        "https://manyland.com/*",
-        "http://manyland.com/*"
+        "https://thingistan.com/*",
+        "http://thingistan.com/*"
       ],
       "js": [
         "inject.js"
@@ -48,13 +48,13 @@
         "dependencies/quantize.js"
       ],
       "matches": [
-        "http://manyland.com/*",
-        "https://manyland.com/*"
+        "http://thingistan.com/*",
+        "https://thingistan.com/*"
       ]
     }
   ],
   "action": {
-    "default_title": "BetterML",
+    "default_title": "BetterThingistan",
     "default_popup": "index.html"
   }
 }
