@@ -45,7 +45,9 @@
         "dependencies/artyom.window.min.js",
         "dependencies/deobf.js",
         "dependencies/jimp.min.js",
-        "dependencies/quantize.js"
+        "dependencies/quantize.js",
+        "pages/about.html",
+        "pages/home.html"
       ],
       "matches": [
         "http://thingistan.com/*",
