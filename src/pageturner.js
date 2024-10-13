@@ -14,7 +14,7 @@ const pages = {
 let currentPage = 'home';
 
 function loadPage(page) {
-    const pageFile = pages[page];
+    const pageFile = pages[page]?.src;
 
     if (!pageFile) {
         console.error('Page not found:', page);
