@@ -2,11 +2,11 @@ const innerdiv = document.getElementById('innerdiv');
 
 const pages = {
     home: {
-        src: 'home.html',
+        src: 'pages/home.html',
         next: "about"
     },
     about: {
-        src: 'about.html',
+        src: 'pages/about.html',
         next: "home"
     }
 };
